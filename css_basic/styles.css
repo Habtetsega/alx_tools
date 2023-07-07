@@ -1,0 +1,24 @@
+*{
+	background-color:#036565;
+}
+body{
+	display:flex;
+	flex-direction:column:
+}
+main{
+	display:flex;
+	flex-direction:row;
+	flex:auto;
+}
+body.article{
+	overflow-y:auto;
+	flex:2;
+}
+body.aside{
+	overflow-y:auto;
+	flex:1;
+}
+div{
+	border-radius:5px;
+}
+
